@@ -1,0 +1,133 @@
+.body {
+  margin: 0;
+  font-family: 'Clash Display', sans-serif;
+  
+}
+
+.faq-container {
+  padding: 20px;
+  position: relative;
+  margin-left: 250px;
+  
+}
+
+.faq-section-title {
+  color: #FF5555;
+  font-size: 18px;
+  width: 44px;
+  height: 28px;
+}
+
+.faq-main-title {
+  font-size: 48px;
+  font-weight: bold;
+  width: 496px;
+  height: 96px;
+  margin-top: 1px;
+}
+
+.star6{
+  position: absolute;
+  right: 600px;
+  bottom: 650px;
+
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  width: 1088px;
+  height: 583px;
+}
+
+.faq-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+.faq-card.highlighted {
+  background: #FF5555;
+  color: white;
+}
+
+
+.faq-card:nth-child(1) {
+  background: #FF5555;
+  color: white;
+}
+
+.faq-card:nth-child(2) {
+  background: white;
+  color: black;
+}
+
+.faq-card:nth-child(3) {
+  background: white; 
+  color: black;
+}
+
+.faq-card:nth-child(4) {
+  background: #FF5555; 
+  color: black;
+}
+
+.faq-card:nth-child(5) {
+  background: #FF5555;
+  color: white;
+}
+
+.faq-card:nth-child(6) {
+  background: white;
+  color: black;
+}
+
+.faq-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.faq-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hoarding{
+  position: relative;
+  margin-top: 0px;
+  height: 700px;
+}
+
+.bground{
+  margin-right: 100px;
+  left: -60px;
+}
+
+.ad-board{
+  position: absolute;
+  right: 235px;
+  bottom: 20px;
+}
+
+.star7{
+ position: absolute;
+ right: 10px;
+ bottom: 600px;
+}
+
+.star8{
+  position: absolute;
+  bottom: 350px;
+  left: 100px;
+}

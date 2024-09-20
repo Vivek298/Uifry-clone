@@ -1,0 +1,95 @@
+.footer{
+  font-family: 'Clash Display', sans-serif;
+  height: 406px;
+}
+.grids{
+  display: flex;
+  align-content: center;
+  margin-left: 235px;
+}
+
+.grids p{
+font-size: 16px;
+font-weight:400;
+}
+
+.grid1{
+width: 173px;
+padding-top: 20px;
+}
+
+.mail{
+  display: flex;
+  align-items: center;
+}
+.mail img{
+  width:24px ;
+  height:24px ;
+}
+
+.contect{
+  display: flex;
+  align-items: center;
+}
+
+.contect img{
+  width:24px ;
+  height:24px ;
+}
+
+.grid2{
+  width: 82px;
+  margin-left: 65px;
+}
+
+.grid3{
+  width: 108px;
+  margin-left: 65px;
+}
+
+.grid4{
+  width: 128px;
+  margin-left: 65px;
+}
+
+.grid5{
+  width: 340px;
+  margin-left: 65px;
+}
+
+.uptodate{
+  background: white;
+}
+
+.mail-input{
+width: 165px;
+height:70px ;
+border: 0cap;
+color: gray;
+}
+
+.Subscribe-button{
+  width: 160px;
+  height: 62px;
+  color: white;
+  background: black;
+  border: 0cap;
+}
+
+.copyright{
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 1090px;
+  height: 104px;
+  margin-left: 235px;
+  margin-top: 50px;
+  border-top: solid 2px gray;
+ 
+}
+
+.copyright h1{
+  font-size: 16px;
+  text-align: center;
+}

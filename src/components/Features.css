@@ -1,0 +1,111 @@
+.premium-container {
+  display: flex;
+  align-items: center;
+  
+  font-family: 'Clash Display', sans-serif;
+  margin-top: 400px; 
+  width: 100%;
+  justify-content: center; 
+}
+
+.staar{
+  
+  width: 70px;
+  margin-top: -40px;
+  margin-left: 50px;
+
+}
+
+
+
+.mobile-container {
+  position: relative;
+  width: 300px; 
+  height: 600px; 
+  
+  margin-left: -1300px;
+  
+}
+
+.mobile-container .ellipse {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top: 50px;
+  left: 20px;
+  z-index: 1;
+  transform: rotate(160deg);
+}
+
+.mobile-container .mobile {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 10%;
+  left: 10%;
+  z-index: 2;
+}
+
+.content {
+  margin-left: 800px;
+  margin-top: -650px;
+  height: 500px;
+  width: 620px;
+  
+
+  padding-bottom: -100px;
+}
+
+.content h2 {
+  color: #FF5555;
+  font-size: 18px;
+  margin: 0;
+}
+
+.content h1 {
+  height: 48px;
+  width: 359px;
+  font-size: 48px;
+  margin: 10px 0 40px 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feature img {
+  margin-right: 20px;
+}
+
+.feature h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.feature p {
+  margin: 5px 0 0 0;
+  color: #000000;
+  width: 638px;
+  height: 56px;
+  font-size: 18px;
+}
+
+.right-bg{
+  
+  height: 350px;
+  width: 160px;
+  margin-top: -400px;
+  margin-left: 628px;
+  
+  
+}
+
+.right-bg img{
+  
+  height: 300px;
+  width: 160px;
+  
+  
+}

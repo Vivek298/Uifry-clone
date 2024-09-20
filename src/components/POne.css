@@ -1,0 +1,142 @@
+.part_one {
+  font-family: 'Clash Display', sans-serif;
+  position: relative;
+  margin-top: 130px;
+  
+}
+
+.texts h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 618px;
+  height: 128px;
+  font-size: 64px;
+  margin-left: 190px;
+}
+
+.texts p {
+  text-transform: initial;
+  width: 638px;
+  height: 56px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 190px;
+}
+
+.buttons {
+  margin-left: 190px;
+  width: 364px;
+  height: 60px;
+  border: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.buttons img {
+  width: 134px;
+  height: 28px;
+}
+
+.button-1 {
+  background-color: black;
+}
+
+.button-2 {
+  background-color: white;
+}
+
+.buttons button {
+  width: 182px;
+  height: 60px;
+  border: none;
+}
+
+.background {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  left: 90px;
+  top: 0.5px;
+  z-index: 0;
+}
+
+.star2 {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 116px;
+  left: 80px;
+  z-index: 1;
+}
+
+.parent {
+  position: relative;
+  width: 500px; 
+  height: 700px; 
+  margin-left: 700px; 
+  margin-top: -430px;
+  
+  padding-top: 0px;
+
+}
+
+.parent img {
+  position: absolute;
+  
+}
+
+.image {
+  z-index: 1;
+}
+
+.image img{
+  height: 100%;
+  width: 100%;
+  top: 150px;
+}
+
+.image-1 {
+  z-index: 4;
+  top: 0px;
+  left: 0px;
+}
+
+.image-1 img {
+  width: auto;
+  height: auto;
+  
+}
+.image-2 img {
+  width: 600px;
+  height: auto;
+  top:80px ;
+  
+}
+.image-3 img {
+  width: auto;
+  height: auto;
+  right: 120px;
+  
+}
+
+.image-2 {
+  z-index: 3;
+}
+
+.image-3 {
+  z-index: 2;
+}
+ 
+.ribbon{
+  
+  width: 569px;
+  height: 358px;
+  margin-top: -240px;
+}
+.ribbon img{
+  width: 569px;
+  height: 358px;
+}
+  
